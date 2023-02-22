@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  padding: auto;
+  color: white;
+  background-color: black;
+  height: auto;
 }
 
 .App-logo {
@@ -35,4 +38,378 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 45em;
+  padding: 30px 0px 80px 90px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  font-weight: 600;
+  line-height: 23.4px;
+  size: 18px;
+}
+
+.logo-img {
+  width: 32px;
+  height: 32px;
+  padding: 35.41px, 0px, 0px, 30px;;
+}
+
+.text2 {
+  font-size: 20px;
+  color: #B5B6BA;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+/* Header */
+.next-gen {
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+
+.logo-img {
+  width: 30px;
+  height: 25px;
+}
+
+.text {
+  font-size: 90px;
+  font-weight: 600;
+  padding-top: 60px;
+}
+
+.gen {
+  background-size: 100%;
+  position: absolute;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+}
+
+
+.discount {
+  padding-left: 80px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 350px;
+  height: 30px;
+  margin-bottom: -70px;
+  margin-top: 40px;
+  gap: 0.5em;
+  padding: 0px 0px 0px 7px;
+  align-items: center;
+  border-radius: 6px;
+  color: black;
+}
+
+.robo {
+  width: 669px;
+  background-image: url(../src/img/Vector\ 16.png);
+  height: 674px;
+  margin-left: 103px;
+}
+
+.anime {
+  display: flex;
+  flex-direction: row;
+}
+
+.getstarted {
+  width: 140px;
+  height: 140px;
+  margin-left: -200px;
+  margin-top: 90px;
+}
+
+.user-active {
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.no {
+  position: relative;
+}
+
+.trust {
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+}
+
+/* Content */
+
+.business {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 130px;
+  padding-left: 90px;
+}
+
+.handling {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 76.8px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.market {
+  font-size: 18px;
+  color: #B5B6BA;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 10px 12px 10px;
+  width: 170px;
+  color: black;
+  font-weight: 500;
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.card1, .card2, .card3 {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-left: 30px;
+}
+
+#r1B {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.card2 {
+  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+  width: 470px;
+  height: 115px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.txt {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.star, .shield, .paper-plane {
+  width: 64px;
+  height: 64px;
+}
+
+.l-transaction {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  background: linear-gradient(113.08deg, #FFFFFF -242.51%, #14101D 85.56%);
+  width: 335px;
+  padding: 20px 10px 20px 19px;
+  margin-left: 60px;
+  margin-top: 190px;
+  border-radius: 9.5px;
+  gap: 2em;
+}
+
+.basketball {
+  background-image: url(../src/img/b-color.png);
+}
+
+.netflix {
+  background-color: white;
+  border-radius: 200px;
+  padding: 5px 3px 5px 3px;
+}
+
+.threebars {
+  background: rgba(223, 255, 240, 1);
+  border-radius: 200px;
+  padding: 8px 12px 8px 11px;
+}
+
+.stocks {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.trans {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.topic {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#days {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+.prices {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 190px;
+}
+
+.red-arrow, .green-arrow {
+  width: 15px;
+  height: 14px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.paypal {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-gap: 1em;
+  background: linear-gradient(113.08deg, #FFFFFF -242.51%, #14101D 85.56%);
+  padding: 20px 30px 20px 30px;
+  border-radius: 12px;
+  width: auto;
+  margin-top: -450px;
+  margin-left: 300px;
+  position: absolute;
+}
+
+.p-logo {
+  height: 50px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 200px;
+}
+
+.p-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#check {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  align-items: center;
+}
+
+.t-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#two-h {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+#change {
+  border-width: 6px lightblue;
+  padding: 10px 5px 10px 5px;
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+}
+
+.p-btn {
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  padding: 7px 15px 7px 15px;
+  color: black;
+  width: 180px;
+  border: none;
+  border-radius: 12px;
+}
+
+.invoicing {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 150px;
+  padding-left: 20px;
+  grid-gap: 100px;
+}
+
+.great {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 250px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  width: 350px;
+  padding: 10px 0px 10px 20px;
+  border-radius: 12px;
+}
+
+.control {
+  font-size: 18px;
+  color: #B5B6BA;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+#get-it {
+  display: flex;
+  flex-direction: row;
+  gap: 8em;
+  padding-top: 40px;
+}
+
+.billing  {
+  padding-top: 80px;
+}
+
+.apple {
+  width: 120px;
+  margin-top: 7px;
+  height: 30px;
 }
