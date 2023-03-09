@@ -413,3 +413,258 @@ nav {
   margin-top: 7px;
   height: 30px;
 }
+
+#credit-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 200px;
+}
+
+.purus {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  line-height: 30.6px;
+}
+
+.bnn {
+  padding: 12px 8px 12px 6px;
+  width: 170px;
+  color: black;
+  font-weight: 500;
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#deal {
+  padding-left: 80px;
+}
+
+.medium {
+  position: absolute;
+  margin-top: -320px;
+  padding-left: 65px;
+}
+
+.small {
+  position: absolute;
+  margin-top: -250px;
+  padding-left: 130px;
+}
+
+#scan {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: -65px;
+}
+
+#online {
+  position: absolute;
+  margin-top: -350px;
+  padding-left: 220px;
+}
+
+#pay {
+  position: absolute;
+  margin-top: -70px;
+}
+
+#saying {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 200px;
+  padding-left: 60px;
+}
+
+.about {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 76.8px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.accept {
+  align-self: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+#leader {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 120px;
+  padding-left: 80px;  
+}
+
+.founders {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-top: 20px;
+}
+
+.founders-mark {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-top: 40px;
+}
+
+.super {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: white;
+}
+
+#sub {
+  color: #707278;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -5px;
+}
+
+.easier, .trade {
+  padding-top: 60px;
+}
+
+.tool {
+  padding-top: 40px;
+}
+
+.jensen {
+  background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+  width: 300px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-radius: 12px;
+}
+
+#comp {
+  display: flex;
+  flex-direction: row;
+  gap: 7em;
+  padding-left: 150px;
+  padding-top: 120px;
+  align-items: center;
+}
+
+#try {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  background:  linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);;
+  width: 1200px;
+  padding: 30px 0px 50px 90px;
+  border-radius: 20px;
+  margin: 120px 0px 0px 100px;
+}
+
+.now {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67.2px;
+}
+
+.planet {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: rgba(255, 255, 255, 0.7);;
+}
+
+.t-now {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+#least {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 75px;
+  padding-left: 120px;
+}
+
+.h-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 27px;
+}
+
+.ul {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  padding-top: 20px;
+}
+
+.secure {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 110px;
+}
+
+.hoo {
+  color: white;
+  font-weight: 600;
+  font-size: 40.5763px;
+  line-height: 130px;
+  padding-left: 77px;
+  position: absolute;
+}
+
+.h-bank {
+  font-weight: 600;
+  font-size: 40.5763px;
+  line-height: 130px;
+  color: rgba(92, 225, 230, 1);
+  position: absolute;
+  margin-top: -130px;
+  margin-left: 80px;
+}
+
+.h-image {
+  position: absolute;
+  width: 72.14px;
+  padding-top: 30px;
+}
+
+.h-line {
+  padding-top: 40px;
+  padding-left: 100px;
+  width: 1350px;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(63, 62, 69, 1);
+  border: none;
+}
+
+
+/* Footer */
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  gap: 37em;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
